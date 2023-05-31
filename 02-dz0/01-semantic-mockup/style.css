@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+    color: #fff;
+}
+
+header {
+    background: red;
+    text-align: center;
+}
+
+nav {
+    background: orange;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    padding: 10px;
+    color: inherit;
+}
+
+main {
+    background: green;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    background: blue;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer {
+    background: purple;
+    text-align: center;
+}
