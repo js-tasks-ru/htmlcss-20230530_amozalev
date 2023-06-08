@@ -15,10 +15,12 @@
 :disabled {
     opacity: 0.5;
     cursor: default;
+    transition: opacity 200ms ease-in-out;
 }
 
 .button_primary {
     background: var(--blue);
+    transition: background 200ms ease-in-out;
 }
 
 .button_primary:hover:enabled {
@@ -27,6 +29,7 @@
 
 .button_secondary {
     background: var(--purple);
+    transition: background 200ms ease-in-out;
 }
 
 .button_secondary:hover:enabled {
@@ -36,6 +39,7 @@
 .button_alternate {
     color: var(--grey-4);
     border: 1px solid var(--grey-3);
+    transition: border 200ms ease-in-out;
 }
 
 .button_alternate:hover:enabled {
