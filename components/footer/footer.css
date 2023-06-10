@@ -8,11 +8,13 @@
     font-weight: 500;
     font-size: 38px;
     line-height: 48px;
+    text-align: center;
     color: var(--black);
-    padding-bottom: 32px;
+    margin: 0 auto 32px;
+    max-width: 640px;
 }
 
-.footer_text {
+.footer__text {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -21,6 +23,6 @@
     text-align: center;
     color: var(--black);
 
-    width: 640px;
-    height: 96px;
+    max-width: 640px;
+    margin: 0 auto;
 }
