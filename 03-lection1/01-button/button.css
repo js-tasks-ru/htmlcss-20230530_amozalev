@@ -11,7 +11,7 @@
     text-align: center;
     color: var(--white);
 
-    transition: opacity, background 2000ms ease-in-out;
+    transition: opacity, background 200ms ease-in-out;
 }
 
 .button:disabled {
@@ -23,7 +23,7 @@
     background: var(--blue);
 }
 
-.button_primary:hover:enabled {
+.button_primary:hover:enabled, .button_primary:active {
     background: var(--blue-1);
 }
 
@@ -31,7 +31,7 @@
     background: var(--purple);
 }
 
-.button_secondary:hover:enabled {
+.button_secondary:hover:enabled, .button_secondary:active {
     background: var(--purple-1);
 }
 
@@ -41,6 +41,6 @@
     transition: border 200ms ease-in-out;
 }
 
-.button_alternate:hover:enabled {
+.button_alternate:hover:enabled, .button_alternate:active {
     border: 1px solid var(--black);
 }
