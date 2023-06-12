@@ -1,5 +1,4 @@
 .main {
-    /*height: 1036px;*/
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -9,8 +8,10 @@
     border-bottom: 1px solid var(--grey-2);
 }
 
-.main__row {
+.main__inner {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 30px;
 }
 
