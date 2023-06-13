@@ -1,6 +1,21 @@
 .main {
-    height: 1036px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 68px 0 92px;
     background: var(--grey-5);
     border-top: 1px solid var(--grey-2);
     border-bottom: 1px solid var(--grey-2);
+}
+
+.main__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.main__card {
+    width: 350px;
+    height: 367px;
 }
