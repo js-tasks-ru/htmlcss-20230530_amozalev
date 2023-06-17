@@ -1,4 +1,4 @@
-.page {
+.component-page {
     min-height: 100vh;
     display: grid;
     grid-template-columns: auto minmax(auto, 1110px) auto;
@@ -10,42 +10,5 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-}
-
-.page__header {
-    display: grid;
-    grid-area: header;
-    max-width: 1110px;
-}
-
-.page__main {
-    display: grid;
-    grid-area: main;
-    grid-template-columns: auto 1fr;
-    column-gap: 56px;
-}
-
-.menu {
-    width: 229px;
-    display: grid;
-}
-
-.component {
-    display: grid;
-}
-
-.page__footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 56px 0;
-
-    grid-area: footer;
-
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: var(--grey-3);
+    background: var(--grey-5);
 }

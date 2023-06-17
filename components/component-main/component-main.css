@@ -1,0 +1,6 @@
+.component-main {
+    display: grid;
+    grid-area: main;
+    grid-template-columns: auto 1fr;
+    column-gap: 56px;
+}

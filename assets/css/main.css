@@ -7,6 +7,11 @@
 @import "../../components/container/container.css";
 @import "../../components/card/card.css";
 @import "../../pages/template.css";
+@import "../../components/menu/menu.css";
+@import "../../components/component-main/component-main.css";
+@import "../../components/component/component.css";
+@import "../../components/component-footer/component-footer.css";
+
 
 :root {
     --white: #ffffff;
