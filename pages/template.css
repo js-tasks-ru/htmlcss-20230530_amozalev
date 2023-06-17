@@ -1,0 +1,14 @@
+.component-page {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: auto minmax(auto, 1110px) auto;
+    grid-template-rows: 118px 1fr 130px;
+    grid-template-areas: ". header ."
+                        ". main ."
+                        ". footer .";
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    background: var(--grey-5);
+}
