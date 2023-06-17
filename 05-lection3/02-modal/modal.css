@@ -1,17 +1,9 @@
 .modal {
     display: none;
-}
-
-.modal__background {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #C4C4C4;
-    opacity: 0.5;
-
+    background: rgba(196, 196, 196, 0.5);
     min-height: 100vh;
     min-width: 100vw;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
