@@ -1,0 +1,25 @@
+.image {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("./public/forest_400.jpg");
+}
+
+@media (min-width: 768px), (min-height: 226px) {
+    .image {
+        background-image: url("./public/forest_768.jpg");
+    }
+}
+
+@media (min-width: 1024px), (min-height: 433px) {
+    .image {
+        background-image: url("./public/forest_1024.jpg");
+    }
+}
+
+@media (min-width: 2560px), (min-height: 577px) {
+    .image {
+        background-image: url("./public/forest_2560.jpg");
+    }
+}
