@@ -6,19 +6,19 @@
     background-image: url("./public/forest_400.jpg");
 }
 
-@media (min-width: 768px), (min-height: 226px) {
+@media (min-width: 768px) {
     .image {
         background-image: url("./public/forest_768.jpg");
     }
 }
 
-@media (min-width: 1024px), (min-height: 433px) {
+@media (min-width: 1024px) {
     .image {
         background-image: url("./public/forest_1024.jpg");
     }
 }
 
-@media (min-width: 2560px), (min-height: 577px) {
+@media (min-width: 2560px) {
     .image {
         background-image: url("./public/forest_2560.jpg");
     }
