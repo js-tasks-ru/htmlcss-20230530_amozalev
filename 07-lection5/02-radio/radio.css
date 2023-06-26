@@ -13,6 +13,7 @@
     justify-content: center;
     align-items: center;
     gap: 12px;
+    cursor: pointer;
 }
 
 .radio__control {
@@ -53,6 +54,10 @@
 
 .radio__input:checked ~ .radio__state .radio__control .radio__circle {
     background: var(--blue);
+}
+
+.radio__input:disabled ~ .radio__state {
+    cursor: default;
 }
 
 .radio__input:disabled ~ .radio__state .radio__label {
