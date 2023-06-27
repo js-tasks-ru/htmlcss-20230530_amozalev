@@ -6,8 +6,7 @@
 .checkbox__input {
     position: fixed;
     opacity: 0;
-    top: -100px;
-    left: -100px;
+    translate: -100px -100px;
 }
 
 .checkbox__state {
