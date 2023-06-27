@@ -4,8 +4,10 @@
 }
 
 .checkbox__input {
-    position: absolute;
+    position: fixed;
     opacity: 0;
+    top: -100px;
+    left: -100px;
 }
 
 .checkbox__state {
