@@ -7,37 +7,40 @@
     </head>
     <body>
         <div class="input">
-            <span class="input__label">Label</span>
-            <label class="input__control">
+            <label class="input__label">Label</label>
+            <div class="input__control">
                 <input type="text" class="input__field" placeholder="Placeholder"/>
-            </label>
-        </div>
-        <div class="input input_success">
-            <span class="input__label">Success</span>
-            <label class="input__control">
-                <input type="text" class="input__field" value="Success"/>
-                <svg class="input__icon icon">
+                <svg class="input__icon input__icon-success icon">
                     <use href="../../assets/images/icons.svg#check_circle"></use>
                 </svg>
-            </label>
-        </div>
-        <div class="input input_invalid">
-            <span class="input__label">Error</span>
-            <label class="input__control">
-                <input type="text" class="input__field" value="Error"/>
-                <svg class="input__icon icon">
+                <svg class="input__icon input__icon-alert icon">
                     <use href="../../assets/images/icons.svg#alert_triangle"></use>
                 </svg>
-            </label>
+            </div>
         </div>
-        <div class="input input_dropdown">
-            <span class="input__label">Select</span>
-            <label class="input__control">
-                <input type="text" class="input__field" value="Dropdown" disabled/>
-                <svg class="input__icon icon">
-                    <use href="../../assets/images/icons.svg#arrow"></use>
+        <div class="input input_success">
+            <label class="input__label">Label</label>
+            <div class="input__control">
+                <input type="text" class="input__field" value="Success"/>
+                <svg class="input__icon input__icon-success icon">
+                    <use href="../../assets/images/icons.svg#check_circle"></use>
                 </svg>
-            </label>
+                <svg class="input__icon input__icon-alert icon">
+                    <use href="../../assets/images/icons.svg#alert_triangle"></use>
+                </svg>
+            </div>
+        </div>
+        <div class="input input_invalid">
+            <label class="input__label">Label</label>
+            <div class="input__control">
+                <input type="text" class="input__field" value="Error"/>
+                <svg class="input__icon input__icon-success icon">
+                    <use href="../../assets/images/icons.svg#alert_triangle"></use>
+                </svg>
+                <svg class="input__icon input__icon-alert icon">
+                    <use href="../../assets/images/icons.svg#alert_triangle"></use>
+                </svg>
+            </div>
         </div>
     </body>
 </html>

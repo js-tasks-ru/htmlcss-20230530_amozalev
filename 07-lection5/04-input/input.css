@@ -43,6 +43,12 @@
     transform: translateY(-50%);
     right: 16px;
     color: var(--white);
+    display: none;
+}
+
+.input_success .input__icon-success,
+.input_invalid .input__icon-alert {
+    display: block;
 }
 
 .input_invalid .input__field {
@@ -52,8 +58,4 @@
 
 .input__field:focus {
     border-color: var(--blue);
-}
-
-.input_dropdown .input__icon {
-    color: var(--blue);
 }
