@@ -4,9 +4,9 @@
 }
 
 .checkbox__input {
-    position: fixed;
+    position: absolute;
     opacity: 0;
-    translate: -100px -100px;
+    transform: translateX(-100vw);
 }
 
 .checkbox__state {
