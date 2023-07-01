@@ -1,12 +1,12 @@
 .radio {
     display: inline-block;
-    position: relative;;
+    position: relative;
 }
 
 .radio__input {
-    position: fixed;
+    position: absolute;
     opacity: 0;
-    translate: -100px -100px;
+    translate: -100vw
 }
 
 .radio__state {
