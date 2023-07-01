@@ -6,7 +6,7 @@
 .radio__input {
     position: absolute;
     opacity: 0;
-    translate: -100vw
+    translate: -100vw;
 }
 
 .radio__state {
