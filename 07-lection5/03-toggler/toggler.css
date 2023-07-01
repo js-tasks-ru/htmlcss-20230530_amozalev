@@ -4,9 +4,9 @@
 }
 
 .toggler__input {
-    position: fixed;
+    position: absolute;
     opacity: 0;
-    translate: -100px -100px;
+    translate: -100vw;
 }
 
 .toggler__state {
