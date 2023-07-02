@@ -1,5 +1,5 @@
 .tabs {
-    width: 469px;
+    min-width: 469px;
     position: relative;
 }
 
