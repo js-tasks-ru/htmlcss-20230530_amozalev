@@ -1,0 +1,117 @@
+.burger-menu {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 375px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+}
+
+.burger-menu__menu {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(249, 250, 252, 1);
+    transform: translateX(-100vw);
+    transition: transform 250ms linear;
+}
+
+.burger-menu__header {
+    padding: 16px 12px;
+    display: flex;
+    align-items: center;
+}
+
+.burger-menu__main {
+    padding: 16px 16px 43px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.burger-menu__section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    padding: 24px 0;
+    border-top: 1px solid var(--grey-2);
+}
+
+.burger-menu__section_theme .toggler__state {
+    justify-content: space-between;
+}
+
+.burger-menu__heading {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--grey-3);
+    margin: 0;
+}
+
+.burger-menu__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.burger-menu__link {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.burger-menu__link:hover {
+    color: var(--notification);
+}
+
+.burger-menu__theme-label {
+    color: var(--grey-4);
+}
+
+.burger-menu__button {
+    border: none;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.burger-menu__button_open {
+    background: transparent;
+    width: 24px;
+    height: 24px;
+}
+
+.burger-menu__button_close {
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    background: var(--grey-2);
+}
+
+.burger-menu__button_open .burger-menu__icon {
+    color: var(--grey-4);
+}
+
+.burger-menu__button_close .burger-menu__icon {
+    color: var(--black);
+}
+
+.burger-menu__icon_logo {
+    width: 110px;
+    height: 32px;
+}
+
+.burger-menu__menu[data-open] {
+    transform: translateX(0);
+}
