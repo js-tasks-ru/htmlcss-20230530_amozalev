@@ -118,3 +118,9 @@
 .burger-menu__menu[data-open] {
     transform: translateX(0);
 }
+
+@media (min-width: 768px) {
+    .burger-menu__button_open {
+        display: none;
+    }
+}
