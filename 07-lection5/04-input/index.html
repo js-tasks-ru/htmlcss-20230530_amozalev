@@ -6,6 +6,41 @@
         <link rel="stylesheet" href="./input.css">
     </head>
     <body>
-
+        <div class="input">
+            <label class="input__label">Label</label>
+            <div class="input__control">
+                <input type="text" class="input__field" placeholder="Placeholder"/>
+                <svg class="input__icon input__icon-success icon">
+                    <use href="../../assets/images/icons.svg#check_circle"></use>
+                </svg>
+                <svg class="input__icon input__icon-alert icon">
+                    <use href="../../assets/images/icons.svg#alert_triangle"></use>
+                </svg>
+            </div>
+        </div>
+        <div class="input input_success">
+            <label class="input__label">Label</label>
+            <div class="input__control">
+                <input type="text" class="input__field" value="Success"/>
+                <svg class="input__icon input__icon-success icon">
+                    <use href="../../assets/images/icons.svg#check_circle"></use>
+                </svg>
+                <svg class="input__icon input__icon-alert icon">
+                    <use href="../../assets/images/icons.svg#alert_triangle"></use>
+                </svg>
+            </div>
+        </div>
+        <div class="input input_invalid">
+            <label class="input__label">Label</label>
+            <div class="input__control">
+                <input type="text" class="input__field input__field_error" value="Error"/>
+                <svg class="input__icon input__icon-success icon">
+                    <use href="../../assets/images/icons.svg#alert_triangle"></use>
+                </svg>
+                <svg class="input__icon input__icon-alert icon">
+                    <use href="../../assets/images/icons.svg#alert_triangle"></use>
+                </svg>
+            </div>
+        </div>
     </body>
 </html>
