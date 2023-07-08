@@ -50,10 +50,6 @@
     border-top: 1px solid var(--grey-2);
 }
 
-.burger-menu__section_theme .toggler__state {
-    justify-content: space-between;
-}
-
 .burger-menu__heading {
     font-size: 20px;
     font-weight: 400;
