@@ -73,10 +73,6 @@
     color: var(--notification);
 }
 
-.burger-menu__theme-label {
-    color: var(--grey-4);
-}
-
 .burger-menu__button, .burger-button-open {
     border: none;
     padding: 0;
