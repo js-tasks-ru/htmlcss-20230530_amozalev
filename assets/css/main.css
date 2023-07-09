@@ -8,6 +8,7 @@
 @import "../../components/card/card.css";
 @import "../../components/button/button.css";
 @import "../../components/icon/icon.css";
+@import "../../components/toggler/toggler.css";
 
 :root {
     --white: #ffffff;
@@ -20,6 +21,7 @@
     --blue-1: #2342C0;
     --blue-2: #334D6E;
     --red: #F03D3E;
+    --orange: #D84910;
     --grey-1: #F8F9FA;
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
@@ -29,6 +31,7 @@
 
     --error: var(--red);
     --success: var(--blue);
+    --notification: var(--orange);
 
     --primary: var(--blue);
     --secondary: var(--purple);
