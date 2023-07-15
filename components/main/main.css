@@ -16,12 +16,12 @@
 }
 
 .main__card {
-    width: 164px;
+    min-width: 164px;
     min-height: 231px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
+    flex: 1 1 calc(33.33% - 16px);
     gap: 38px;
     padding: 32px;
 }
@@ -54,6 +54,12 @@
     height: fit-content;
 }
 
+@media screen and (min-width: 345px) {
+    .main__card {
+        flex-basis: calc(49% - 16px);
+    }
+}
+
 @media screen and (min-width: 768px) {
     .main {
         padding: 68px 0 92px;
@@ -64,7 +70,7 @@
     }
 
     .main__card {
-        width: 350px;
         min-height: 367px;
+        flex-basis: 350px;
     }
 }
