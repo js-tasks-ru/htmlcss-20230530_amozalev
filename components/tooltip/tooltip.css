@@ -24,6 +24,10 @@
     transform: translateX(-50%);
 }
 
+.tooltip__bubble_visible {
+    display: block;
+}
+
 .tooltip__bubble:after {
     position: absolute;
     content: "";

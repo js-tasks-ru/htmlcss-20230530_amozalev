@@ -12,6 +12,11 @@
     padding: 16px 24px;
 }
 
+.histogram_flex {
+    display: flex;
+    flex-grow: 1;
+}
+
 .histogram__header {
     display: flex;
     justify-content: space-between;

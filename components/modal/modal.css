@@ -10,6 +10,18 @@
     left: 0;
 }
 
+.modal_visible {
+    display: block;
+    position: absolute;
+    min-height: unset;
+    min-width: unset;
+}
+
+.modal_visible .modal__popup {
+    width: fit-content;
+    height: fit-content;
+}
+
 .modal__popup {
     width: 428px;
     height: 318px;
