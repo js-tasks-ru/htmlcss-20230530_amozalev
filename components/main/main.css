@@ -16,14 +16,14 @@
 }
 
 .main__card {
-    min-width: 164px;
-    min-height: 231px;
+    width: 164px;
+    height: 231px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    flex: 1 1 calc(33.33% - 16px);
+    flex: 1 1 164px;
     gap: 38px;
-    padding: 32px;
+    padding: 8px;
 }
 
 @media screen and (min-width: 345px) {
@@ -44,5 +44,6 @@
     .main__card {
         min-height: 367px;
         flex-basis: 350px;
+        padding: 32px;
     }
 }
