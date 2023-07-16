@@ -1,0 +1,15 @@
+.burger-button {
+    background: transparent;
+    width: 24px;
+    height: 24px;
+    border: none;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.burger-button .burger-button__icon {
+    color: var(--grey-4);
+}
