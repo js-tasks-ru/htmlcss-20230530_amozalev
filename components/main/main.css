@@ -18,6 +18,18 @@
 .main__card {
     width: 164px;
     height: 231px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 164px;
+    gap: 38px;
+    padding: 8px;
+}
+
+@media screen and (min-width: 345px) {
+    .main__card {
+        flex-basis: calc(49% - 16px);
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -30,7 +42,8 @@
     }
 
     .main__card {
-        width: 350px;
-        height: 367px;
+        min-height: 367px;
+        flex-basis: 350px;
+        padding: 32px;
     }
 }

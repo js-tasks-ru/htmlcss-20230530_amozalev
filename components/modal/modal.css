@@ -1,0 +1,45 @@
+.modal {
+    display: none;
+    background: rgba(196, 196, 196, 0.5);
+    min-height: 100vh;
+    min-width: 100vw;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.modal_visible {
+    display: block;
+    position: absolute;
+    min-height: unset;
+    min-width: unset;
+}
+
+.modal_visible .modal__popup {
+    width: fit-content;
+    height: fit-content;
+}
+
+.modal__popup {
+    width: 428px;
+    height: 318px;
+    box-sizing: border-box;
+    padding: 32px 38px 40px 40px;
+    background: var(--white);
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal__controls {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal__close-btn {
+    cursor: pointer;
+}
